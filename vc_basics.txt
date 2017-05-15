@@ -1,0 +1,14 @@
+14 May 2017
+
+Reflections from lessons learned
+
+
+version control (VC) in Linux is used like this:
+
+diff -u <oldFileName> <newFileName>
+
+**differences will print to screen:
+
++for adds
+-for removals 
+
