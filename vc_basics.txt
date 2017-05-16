@@ -16,13 +16,13 @@ diff -u <oldFileName> <newFileName>
 
 git commit: PITC
 
-git log --stat (gives information about file changes with each commit)
-
 git diff <id_1> <id_2> :changes as "pluses" and "minuses"
 
 git log --grep='<SEARCH_STRING>': searching for a commit 
-
 git log --author=""
+git log --stat (gives information about file changes with each commit)
+git log --graph <branchName>
+got log --oneline <branchName>
 
 git config --global user.email "utter.linguist@gmail.com"
 git config --global user.name "Bachman"
