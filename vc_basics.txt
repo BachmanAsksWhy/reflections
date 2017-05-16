@@ -42,6 +42,34 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 # Set the cache to timeout after 1 hour (setting is in seconds)
 
+#######  USING GIT HUB #########
+git Hub: cloud for version control
+
+git remote (-v) lists the name of the repos on git
+----> origin is a good naming convention for the seminal node
+
+##add seminal node to gitHub
+git remote add <nameOfNode> <URL/yourUserName/repoName.git>
+----> EXAMPLE: git remote add origin https://github.com/mbachWondersWhy/recipes.git
+
+##commits TO gitHub from local
+git push <seminalNode> <localBranch>
+----> EXAMPLE: git push origin master
+
+## commits FROM gitHub to Local
+git pull <seminalNode> <localBranch>
+----> EXAMPLE: git pull origin master
+
+##clone repo from gitHub to local
+git clone <URL/yourUserName/repoName.git>
+## git will create a local directory named by the repoName
+
+##forking
+Forking is a clone WITHIN GITHUB only
+
+
+
+
 
 Version Control (not exhaustive):
 - Git
