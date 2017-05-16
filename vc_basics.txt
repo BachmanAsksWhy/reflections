@@ -12,3 +12,37 @@ diff -u <oldFileName> <newFileName>
 +for adds
 -for removals 
 
+## GIT
+
+git commit: PITC
+
+git log --stat (gives information about file changes with each commit)
+
+git diff <id_1> <id_2> :changes as "pluses" and "minuses"
+
+git log --grep='<SEARCH_STRING>': searching for a commit 
+
+git log --author=""
+
+git config --global user.email "utter.linguist@gmail.com"
+git config --global user.name "Bachman"
+
+git checkout master
+
+git branch <name of branch>
+---> switch to branch: git checkout <name of branch>
+
+
+
+
+Version Control (not exhaustive):
+- Git
+- GoogleDocs
+- SVN
+- Manual Save
+- DropBox/ Box
+
+To save a version in Git: Commit
+To check version differences in Git: git diff
+
+A good rule of thumb is to make one commit per logical change. For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate. If you do this, each commit will have one purpose that can be easily understood. Git allows you to write a short message explaining what was changed in each commit, and that message will be more useful if each commit has a single logical change.
