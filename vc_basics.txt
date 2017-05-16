@@ -28,6 +28,7 @@ git config --global user.email "utter.linguist@gmail.com"
 git config --global user.name "Bachman"
 
 git checkout master
+git checkout -b <newBranchName> ##creates and checks out target branch
 
 git branch <name of branch>
 ---> switch to branch: git checkout <name of branch>
